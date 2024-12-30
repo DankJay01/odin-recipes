@@ -28,11 +28,11 @@ img {
     text-align: center;
 }
 
-#home-links ul{
+a, ul{
     list-style: none;
 }
 
-#home-links a {
+ a {
     font-size: 20px;
     font-weight: bold;
     display: inline;
@@ -40,6 +40,7 @@ img {
     padding: 8px;
     margin-left: 190px;
     color: rgb(241, 127, 70);
+    margin-bottom: 10px;
 }
 
 .welcome {
@@ -52,4 +53,15 @@ img {
     text-align: center;
     color: rgb(200, 8, 2);
     margin-bottom: 10px;
+}
+
+.index-image1,
+.index-image2,
+.index-image3 {
+    display: block;
+    width: 180px;
+    height: 150px;
+    margin: 100px auto;
+    padding: 0px 200px;
+    float: center;
 }
