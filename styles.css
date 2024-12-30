@@ -24,6 +24,24 @@ img {
     border-radius: 50%;
 }
 
+.index-title{
+    text-align: center;
+}
+
+#home-links ul{
+    list-style: none;
+}
+
+#home-links a {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+    float: inline-start;
+    padding: 8px;
+    margin-left: 190px;
+    color: rgb(241, 127, 70);
+}
+
 .welcome {
     text-align: center;
     color: rgb(245, 61, 28);
@@ -33,4 +51,5 @@ img {
 .page_description {
     text-align: center;
     color: rgb(200, 8, 2);
+    margin-bottom: 10px;
 }
