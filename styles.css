@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    color: rgb(245, 170, 19);
+    color: darkgreen;
     font: 400px;
 }
 
@@ -20,8 +20,13 @@ h4 {
     font-weight: bolder;
 }
 
-img {
+.pages_image {
     border-radius: 50%;
+    width: 350px;
+    height: 280px;
+    display: block;
+    float: inline-end;
+    margin-top: 200px;
 }
 
 .index-title{
@@ -39,8 +44,12 @@ a, ul{
     float: inline-start;
     padding: 8px;
     margin-left: 190px;
-    color: rgb(241, 127, 70);
+    color: darkgreen;
     margin-bottom: 10px;
+}
+
+a:hover:visited {
+    color: orange;
 }
 
 .welcome {
@@ -58,6 +67,7 @@ a, ul{
 .index-image1,
 .index-image2,
 .index-image3 {
+    border-radius: 50%;
     display: block;
     width: 180px;
     height: 150px;
