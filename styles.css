@@ -35,9 +35,13 @@ h4 {
 
 a, ul{
     list-style: none;
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    margin-left: 90px;
 }
 
- a {
+ /* a {
     font-size: 20px;
     font-weight: bold;
     display: inline;
@@ -46,7 +50,7 @@ a, ul{
     margin-left: 190px;
     color: darkgreen;
     margin-bottom: 10px;
-}
+} */
 
 a:hover:visited {
     color: orange;
@@ -67,11 +71,11 @@ a:hover:visited {
 .index-image1,
 .index-image2,
 .index-image3 {
+    display: flex;
+    align-content: left;
     border-radius: 50%;
-    display: block;
-    width: 180px;
-    height: 150px;
+    width: 200px;
+    height: 180px;
     margin: 100px auto;
-    padding: 0px 200px;
-    float: center;
+    margin-left: -150px;
 }
